@@ -11,4 +11,9 @@ class MyCallAble : Callable<String> {
     override fun call(): String {
         return Thread.currentThread().name
     }
+
+    fun goWalk(){
+        println("walk")
+    }
 }
+
