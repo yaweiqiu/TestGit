@@ -15,5 +15,9 @@ class MyCallAble : Callable<String> {
     fun goWalk(){
         println("walk")
     }
+
+    fun speak(){
+
+    }
 }
 
